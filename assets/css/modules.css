@@ -4,7 +4,7 @@ modules
 
 #navbar_plus
 {
-	background: #2F2F4F;
+	background: #fff;
 	border: 0;
  	margin: 0;
 	padding: 5px;
@@ -13,7 +13,7 @@ modules
 
 .footer
 {
-	background: #2F2F4F;
+	background: lightblue;
 	border: 0;
  	margin: 0;
 	padding: 5em;

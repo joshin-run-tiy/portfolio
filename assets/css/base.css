@@ -44,7 +44,7 @@
 
 .blue-background
 {
- background-color: #1bb3f5;
+ background-color: #fff;
 }
 /*----------------
 base
@@ -95,7 +95,7 @@ h6
 }
 
 
-a:focus img { backgroiund: #000; }
+/*a:focus img { backgroiund: #000; }*/
 a:hover img { baground: #3bb2d0; }
-a:active img {background: #af0000; }
+/*a:active img {background: #af0000; }*/
 blockquote { margin: 0; }
