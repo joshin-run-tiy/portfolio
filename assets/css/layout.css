@@ -19,6 +19,12 @@ layout
   padding-top: 12em;
 }
 
+.space-thin {
+  height: 10vh;
+  width: 100vw;
+  background-color: #f1f1f1;
+}
+
 .projects-container {
   height: 95vh;
   width: 100vw;
@@ -79,3 +85,12 @@ layout
 .col-narrow { max-width: 34em; }
 .col-medium { max-width: 52em; }
 .col-wide { max-width: 72em; }
+
+/*----------------
+icons
+------------------*/
+#icon-container {
+  height: 60vh;
+  width: 100vw;
+  background-color: #fff;
+}
