@@ -83,8 +83,10 @@ h6
 .logo-img
 {
   margin-left: 3em;
-  margin-top:10px;
+  margin-top:16px;
   height: 60px;
+  opacity: 0.9;
+
 }
 
 #navbar-brand {

@@ -9,16 +9,9 @@ modules
 	box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.1);
 	box-shadow: inset;
  	margin: 0;
-	padding: 5px;
+	padding-bottom: 5px;
 	height: 50px;
-}
-
-.footer
-{
-	background: lightblue;
-	border: 0;
- 	margin: 0;
-	padding: 5em;
+	padding-right: 30px;
 }
 
 .thumbnail_layout_right

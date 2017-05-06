@@ -8,6 +8,12 @@ layout
 ------------------*/
 /* container */
 
+.blue-space {
+  height: 350px;
+  width: 100%;
+  background-color: lightblue;
+}
+
 .nav-menu {
   font-size: 1.5em;
   font-family: 'futura';
@@ -97,6 +103,11 @@ icons
   height: 60vh;
   width: 100vw;
   background-color: #fff;
+}
+
+.icons {
+  width: 80%;
+  height: 80%;
 }
 
 /*----------------
@@ -193,7 +204,7 @@ Tech Stack
   grid-template-columns: auto 130px  130px 130px 130px  130px 130px 130px  130px 130px auto;
   grid-template-rows: auto 130px auto;
   height: 300px;
-  justify-content: space-between;
+  /*justify-content: space-between;*/
 }
 
 .icon-1 {
@@ -238,3 +249,50 @@ Tech Stack
   grid-column: 10 / 11;
   grid-row: 2 / 3;
 }
+
+/*----------------
+Footer
+------------------*/
+
+.footer {
+  display: grid;
+  grid-template-columns: 60% 40%;
+  grid-template-rows: 80% 20%;
+  height: 60vh;
+  width: 100vw;
+  background-color: lightblue;
+}
+
+.test {
+  grid-column: 1 / 3;
+  grid-row: 2 / 3;
+  background-color: black;
+  width: 100vw;
+}
+/*
+.sub-footer {
+  grid-column: 1 / 3;
+  grid-row: 2 / 3;
+  color: #fff;
+  font-size: 1em;
+  font-family: 'futura';
+  height: 30vh;
+  width: 100vw;
+  background-color: yellow;
+}
+
+.test {
+  background-color: blue;
+  grid-column: 1 / 2;
+  grid-row: 1 / 2;
+}*/
+
+/*.sub-footer p {
+  padding: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+.sub-footer p span{
+  font-weight: bold;
+}*/
