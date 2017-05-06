@@ -1,93 +1,107 @@
 <!doctype html>
-
 <html lang="en">
-<head>
-  <title>Portfolio | Josh Holladay - Front-end Developer</title>
-  <meta charset="utf-8">
-  <meta name="description" content="Portfolio | Josh Holladay - Front-end Developer">
-  <meta name="author" content="Josh Holladay">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" type="text/css" href="assets/css/base.css">
-  <link rel="stylesheet" type="text/css" href="assets/css/layout.css">
-  <link rel="stylesheet" type="text/css" href="assets/css/modules.css">
-  <link rel="stylesheet" href="./assets/css/prez.css">
-  <link rel="stylesheet" href="./assets/css/projects.css">
-  <link rel="stylesheet" href="./assets/css/bootstrap.css">
-  <link rel="stylesheet" href="./assets/css/exersize.css">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
-  <!-- Latest compiled and minified JavaScript -->
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-  <script src="js/scripts.js"></script>
-</head>
-<body>
-  <nav id="navbar_plus" class="navbar navbar-default navbar-fixed-top">
-    <div class="container-fluid">
-      <div class="navbar-header">
-       <a id="navbar--brand" href="#"><img src="./assets/img/jh-logo-circle.svg" alt="jh-logo" class="logo-img"></a>
+  <head>
+    <title>Portfolio | Josh Holladay - Front-end Developer</title>
+    <meta charset="utf-8">
+    <meta name="description" content="Portfolio | Josh Holladay - Front-end Developer">
+    <meta name="author" content="Josh Holladay">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="assets/css/base.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/layout.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/modules.css">
+    <link rel="stylesheet" href="./assets/css/prez.css">
+    <link rel="stylesheet" href="./assets/css/projects.css">
+    <link rel="stylesheet" href="./assets/css/bootstrap.css">
+    <link rel="stylesheet" href="./assets/css/exersize.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <script src="js/scripts.js"></script>
+  </head>
+  <body>
+    <nav id="navbar_plus" class="navbar navbar-default navbar-fixed-top">
+      <div class="container-fluid">
+        <div class="navbar-header">
+         <a id="navbar--brand" href="#"><img src="./assets/img/jh-logo-circle.svg" alt="jh-logo" class="logo-img"></a>
+        </div>
+       <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav navbar-right nav-style">
+         <li class="nav-menu"><a href="#home">Home</a></a></li>
+         <li class="nav-menu"><a href="#intro">Projects</a></li>
+         <li class="nav-menu"><a href="#three_steps">About</a></li>
+         <li class="nav-menu"><a href="#compare">Contact</a></li>
+        </ul>
       </div>
-     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-      <ul class="nav navbar-nav navbar-right nav-style">
-       <li class="nav-menu"><a href="#home">Home</a></a></li>
-       <li class="nav-menu"><a href="#intro">Projects</a></li>
-       <li class="nav-menu"><a href="#three_steps">About</a></li>
-       <li class="nav-menu"><a href="#compare">Contact</a></li>
-      </ul>
+    </nav>
+    <a id="home"></a>
+    <div class="banner">
+     <div class="header-text">
+      <p class="title" style="font-size: 3.5em; font-family: 'futura'">Josh Holladay</p>
+      <p class="title" style="font-size: 5.25em; font-family: 'futura'">Front-end Web Developer</p>
+      <p class="title" style="font-size: 2.5em; font-family: 'futura'">Modern and Responsive Web Applications</p>
     </div>
-  </nav>
-  <a id="home"></a>
-  <!-- banner -->
-  <div class="banner">
-   <div class="header-text">
-    <p class="title" style="font-size: 3.5em; font-family: 'futura'">Josh Holladay</p>
-    <p class="title" style="font-size: 5.25em; font-family: 'futura'">Front-end Web Developer</p>
-    <p class="title" style="font-size: 2.5em; font-family: 'futura'">Modern and Responsive Web Applications</p>
-  </div>
-  </div>
-  <div class="white-space"></div>
-  <div class="space-thin"></div>
-
-  <div id="projects" class="projects-container">
-    <div class="header-projects">
-
+    </div>
+    <div class="white-space"></div>
+    <div class="space-thin"></div>
+      <div id="thumbnail-grid">
+        <div class="thumb-1">
+          <img class="thumbnails" src="./assets/img/project-thumbnails/cards300/blue-boat.jpg" alt="Blue Boat">
+        </div>
+        <div class="thumb-2">
+          <img class="thumbnails" src="./assets/img/project-thumbnails/cards300/whiteVision.jpg" alt="White Vision">
+        </div>
+        <div class="thumb-3">
+          <img class="thumbnails" src="./assets/img/project-thumbnails/cards300/hello-dev.jpg" alt="Hello Dev Blog">
+        </div>
+        <div class="thumb-4">
+          <img class="thumbnails" src="./assets/img/project-thumbnails/cards300/css-grid-presentation.jpg" alt="CSS Grid Meetup Presentation">
+        </div>
+        <div class="thumb-5">
+          <img class="thumbnails" src="./assets/img/project-thumbnails/cards300/countdown-clock.jpg" alt="Countdown Clock">
+        </div>
+        <div class="thumb-6">
+          <img class="thumbnails" src="./assets/img/project-thumbnails/cards300/edison.jpg" alt="Thomas Edison">
+        </div>
+        <div class="thumb-7">
+          <img class="thumbnails" src="./assets/img/project-thumbnails/cards300/hangman.jpg" alt="Hangman">
+        </div>
+        <div class="thumb-10">
+          <img class="thumbnails" src="./assets/img/project-thumbnails/cards300/js-calc.jpg" alt="JavaScript Calculator">
+        </div>
+        <div class="thumb-8">
+          <img class="thumbnails" src="./assets/img/project-thumbnails/cards300/star-wars.jpg" alt="Star Wars Films">
+        </div>
+        <div class="thumb-11">
+          <img class="thumbnails" src="./assets/img/project-thumbnails/cards300/space-invaders.jpg" alt="Space Invaders">
+        </div>
+        <div class="thumb-9">
+          <img class="thumbnails" src="./assets/img/project-thumbnails/cards300/bettys-icecream.jpg" alt="Betty's Best Ice Cream">
+        </div>
       </div>
-      <img class="thumbnails" src="./assets/img/project-thumbnails/cards300/bettys-icecream.jpg" alt="Betty's Best Ice Cream">
-      <img class="thumbnails" src="./assets/img/project-thumbnails/cards300/blue-boat.jpg" alt="Blue Boat">
-      <img class="thumbnails" src="./assets/img/project-thumbnails/cards300/countdown-clock.jpg" alt="Countdown Clock">
-      <img class="thumbnails" src="./assets/img/project-thumbnails/cards300/css-grid-presentation.jpg" alt="CSS Grid Meetup Presentation">
+      <div class="white-space"></div>
+      <div id="icon-grid">
+        <div class="icon-1">
+          <img class="icons" src="./assets/img/icons/tech-stack/HTML5-150.png" alt="HTML5">
+        </div>
+      </div>
+    <div id="icon-container">
+      <img class="icons" src="./assets/img/icons/tech-stack/bootstrap-130.png" alt="Bootstrap">
+      <img id="css3" class="icons" src="./assets/img/icons/tech-stack/css3-150.png" alt="CSS3">
+      <img class="icons" src="./assets/img/icons/tech-stack/git.png" alt="git">
+      <img class="icons" src="./assets/img/icons/tech-stack/github2.png" alt="GitHub">
 
-      <img class="thumbnails" src="./assets/img/project-thumbnails/cards300/hangman.jpg" alt="Hangman">
-      <img class="thumbnails" src="./assets/img/project-thumbnails/cards300/hello-dev.jpg" alt="Hello Dev Blog">
-      <img class="thumbnails" src="./assets/img/project-thumbnails/cards300/js-calc.jpg" alt="JavaScript Calculator">
-      <img class="thumbnails" src="./assets/img/project-thumbnails/cards300/whiteVision.jpg" alt="White Vision">
-      <img class="thumbnails" src="./assets/img/project-thumbnails/cards300/star-wars.jpg" alt="Star Wars Films">
-      <img class="thumbnails" src="./assets/img/project-thumbnails/cards300/space-invaders.jpg" alt="Space Invaders">
-      <img class="thumbnails" src="./assets/img/project-thumbnails/cards300/edison.jpg" alt="Thomas Edison">
+      <img class="icons" src="./assets/img/icons/tech-stack/jquery.png" alt="jQuery">
+      <img class="icons" src="./assets/img/icons/tech-stack/js.png" alt="JavaScript">
+      <img class="icons" src="./assets/img/icons/tech-stack/react.png" alt="React.js">
+      <img class="icons" src="./assets/img/icons/tech-stack/sass.png" alt="Sass">
     </div>
-  </div>
-  <div class="white-space"></div>
-
-  <div id="icon-container">
-    <img class="icons" src="./assets/img/icons/tech-stack/bootstrap-130.png" alt="Bootstrap">
-    <img id="css3" class="icons" src="./assets/img/icons/tech-stack/css3-150.png" alt="CSS3">
-    <img class="icons" src="./assets/img/icons/tech-stack/git.png" alt="git">
-    <img class="icons" src="./assets/img/icons/tech-stack/github2.png" alt="GitHub">
-    <img class="icons" src="./assets/img/icons/tech-stack/HTML5-150.png" alt="HTML5">
-    <img class="icons" src="./assets/img/icons/tech-stack/jquery.png" alt="jQuery">
-    <img class="icons" src="./assets/img/icons/tech-stack/js.png" alt="JavaScript">
-    <img class="icons" src="./assets/img/icons/tech-stack/react.png" alt="React.js">
-    <img class="icons" src="./assets/img/icons/tech-stack/sass.png" alt="Sass">
-  </div>
-
-  <div class="white-space"></div>
-
-
-  <!-- footer -->
-    <a id="contact_section"></a>
-    <div class="container-fluid">
-    <div class="row row--banner row--padding-wide text-w footer">
-      <p style="font-size: 3em;"></p>
+    <div class="space-medium"></div>
+    <div class="white-space"></div>
+      <a id="contact_section"></a>
+      <div class="container-fluid">
+      <div class="row row--banner row--padding-wide text-w footer">
+        <p style="font-size: 3em;"></p>
+      </div>
     </div>
-  </div>
-</body>
+  </body>
 </html>
