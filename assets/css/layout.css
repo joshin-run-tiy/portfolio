@@ -37,7 +37,6 @@ layout
   background-color: #f1f1f1;
 }
 
-
 .projects-container {
   height: 95vh;
   width: 100vw;
@@ -204,7 +203,6 @@ Tech Stack
   grid-template-columns: auto 130px  130px 130px 130px  130px 130px 130px  130px 130px auto;
   grid-template-rows: auto 130px auto;
   height: 300px;
-  /*justify-content: space-between;*/
 }
 
 .icon-1 {
@@ -273,11 +271,9 @@ Footer
   justify-content: center;
   align-content: center;
   background-color: #4D91A9;
-  /*background-color: lightblue;*/
   width: 100vw;
   color: #fff;
   font-size: 1em;
-  /*font-family: 'futura';*/
   font-family: Arial,"Helvetica Neue",Helvetica,sans-serif;
 }
 
@@ -363,6 +359,12 @@ span {
 .m-icons {
   height: 70%;
   width: 70%;
+}
+
+.m-icons:hover {
+  opacity: 0.8;
+  transform: scale(1.075);
+  transition: all 0.3s;
 }
 
 .m-icon1 {
