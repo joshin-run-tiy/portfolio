@@ -311,7 +311,15 @@ Footer
   height: 25vh;
   width: 25vw;
   padding: 1em 3em 0 0;
-  /*text-align: justify;*/
+}
+
+span {
+  font-weight: bold;
+  font-size: 1.2em;
+}
+
+.bio-content span {
+  color: lightgray;
 }
 
 .devitar {
