@@ -1,3 +1,27 @@
+@media( max-width: 27.5em ) {
+  .thumbnail-grid {
+    grid-template-columns: 100%;
+  }
+}
+
+@media( max-width: 40em ) {
+  .thumbnail-grid {
+    grid-template-columns: 50% 50%;
+  }
+}
+
+@media( max-width: 50em ) {
+  .thumbnail-grid {
+    grid-template-columns: 33.333333334% 33.333333334% 33.333333334%;
+  }
+}
+
+@media( max-width: 70em ) {
+  .thumbnail-grid {
+    grid-template-columns: 33.333333334% 33.333333334% 33.333333334%;
+  }
+}
+
 /*@media (max-width: 450px) {
   body {
     background: skyblue;
