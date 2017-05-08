@@ -1,58 +1,49 @@
-/*@media( max-width: 27.5em ) {
-  .thumbnail-grid {
-    grid-template-columns: 100%;
+@media( max-width: 1024px ) {
+
+}
+
+@media( max-width: 950px ) {
+  .bio-content p {
+    font-size: 0.75em
+  }
+  .name {
+    font-size: 2.5em;
+  }
+
+  .dev {
+    font-size: 4.25em;
+  }
+
+  .dev-type {
+    font-size: 1.5em;
+}
+
+@media( max-width: 650px ) {
+  .m-icons {
+    height: 2em;
+    width: 2em;
+    margin: .25em;
+  }
+  .devitar {
+    height: 4em;
+    width: 4em;
+  }
+  .icons {
+    width: 50%;
+    height: 50%;
   }
 }
 
-@media( max-width: 40em ) {
-  .thumbnail-grid {
-    grid-template-columns: 50% 50%;
+@media( max-width: 480px ) {
+  .name {
+    font-size: 1.5em;
+  }
+
+  .dev {
+    font-size: 3.25em;
+  }
+
+  .dev-type {
+    font-size: 1em;
   }
 }
-
-@media( max-width: 50em ) {
-  .thumbnail-grid {
-    grid-template-columns: 33.333333334% 33.333333334% 33.333333334%;
-  }
-}
-
-@media( max-width: 70em ) {
-  .thumbnail-grid {
-    grid-template-columns: 33.333333334% 33.333333334% 33.333333334%;
-  }
-}
-
-/*@media (max-width: 450px) {
-  body {
-    background: skyblue;
-    color: brown;
-  }
-}
-
-@media (min-width: 800px) {
-  body {
-    background: skyblue;
-    color: brown;
-  }
-
-  a {
-    color: brown;
-  }
-}
-
-@media (min-width: 450px) and (max-width: 800px){
-  body {
-    font-family: sans-serif;
-    }
-}
-
-@media print {
-  body {
-    background: white;
-    color: black;
-  }
-
-  a {
-    color: black;
-  }
-}*/*/
