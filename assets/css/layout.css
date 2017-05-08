@@ -1,8 +1,9 @@
 .title {
-  fill: lightblue;
-  stroke: black;
-  stroke-width: 10em;
-  font-family: 'futura'
+  font-family: 'futura';
+  color: #000;
+  /*fill: lightblue;
+  stroke: black;*/
+  /*stroke-width: 10em;  */
 }
 /*----------------
 layout
