@@ -141,6 +141,8 @@ Tech Stack
 ------------------*/
 
 #icon-grid {
+  background-image: url("../img/codeblue.jpg");
+  background-attachment: fixed;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;

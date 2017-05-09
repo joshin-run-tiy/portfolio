@@ -1,5 +1,5 @@
 @media( max-width: 1024px ) {
-
+  
 }
 
 @media( max-width: 950px ) {
@@ -33,6 +33,10 @@
   }
   .blue-space {
     height: 150px;
+  }
+  .logo-img {
+    height: 40px;
+    margin-top: 24px;
   }
 }
 

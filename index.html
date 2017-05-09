@@ -10,12 +10,11 @@
     <link rel="stylesheet" type="text/css" href="assets/css/base.css">
     <link rel="stylesheet" type="text/css" href="assets/css/layout.css">
     <link rel="stylesheet" type="text/css" href="assets/css/modules.css">
-    <link rel="stylesheet" href="./assets/css/prez.css">
     <link rel="stylesheet" href="./assets/css/bootstrap.css">
     <link rel="stylesheet" href="./assets/css/media-q.css">
-    <script type="text/javascript" src="./js/jquery-3.2.1.min.js">
-
-    </script>
+    <link rel="stylesheet" href="./assets/css/menu.css">
+    <script type="text/javascript" src="./js/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="./js/nav.js"></script>
   </head>
   <body>
     <nav id="navbar_plus" class="navbar navbar-default navbar-fixed-top">
@@ -24,10 +23,10 @@
           <a id="navbar--brand" href="#home"><img src="./assets/img/jh-logo-circle.svg" alt="jh-logo" class="logo-img"></a>
         </div>
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-          <ul class="nav navbar-nav navbar-right nav-style">
-           <li class="nav-menu"><a href="#home">Home</a></li>
-           <li class="nav-menu"><a href="#projects">Projects</a></li>
-           <li class="nav-menu"><a href="#contact">Contact</a></li>
+          <ul id="nav" class="nav navbar-nav navbar-right nav-style">
+            <li class="nav-menu"><a href="#home">Home</a></li>
+            <li class="nav-menu"><a href="#portfolio">Portfolio</a></li>
+            <li class="nav-menu"><a href="#contact">Contact</a></li>
           </ul>
         </div>
       </div>
@@ -42,7 +41,7 @@
     </div>
     <div class="blue-space"></div>
     <div class="space-thin"></div>
-    <div id="projects"></div>
+    <div id="portfolio"></div>
       <div id="thumbnail-grid">
         <div id="thumbnail-inner">
           <div class="thumb-1">
@@ -72,6 +71,7 @@
         </div>
       </div>
       <div class="blue-space"></div>
+      <!-- <img id="code" src="./assets/img/code.jpg" alt=""> -->
       <div id="icon-grid">
         <div class="icon-1">
           <img class="icons" src="./assets/img/icons/tech-stack/html5-150.png" alt="HTML5">
