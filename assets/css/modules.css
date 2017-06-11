@@ -5,13 +5,14 @@ modules
 #navbar_plus
 {
 	background: #fff;
-	border-bottom: 5px thin lightblue;
+	/*border-bottom: 3px thin lightblue;
 	box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.1);
-	box-shadow: inset;
+	box-shadow: inset;*/
  	margin: 0;
-	padding-bottom: 5px;
-	height: 50px;
-	padding-right: 30px;
+	/*padding-bottom: 5px;*/
+	height: 9%;
+	padding-right: 25px;
+	opacity: 0.9;
 }
 
 .thumbnail_layout_right

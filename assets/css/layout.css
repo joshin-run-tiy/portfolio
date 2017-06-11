@@ -4,22 +4,22 @@
 
 .title {
   font-family: 'futura';
-  color: #000;
+  color: #fff;
   /*fill: lightblue;
   stroke: black;*/
   /*stroke-width: 10em;  */
 }
 
 .name {
-  font-size: 3.5em;
+  font-size: 2.5em;
 }
 
 .dev {
-  font-size: 5.25em;
+  font-size: 4em;
 }
 
 .dev-type {
-  font-size: 2.5em;
+  font-size: 1.5em;
 }
 
 .blue-space {
@@ -29,13 +29,13 @@
 }
 
 .nav-menu {
-  font-size: 1.5em;
+  font-size: 1.25em;
   font-family: 'futura';
   color: #1bb3f5;
 }
 
 .header-text {
-  padding: 5em;
+  padding: 3em;
   padding-top: 12em;
 }
 
