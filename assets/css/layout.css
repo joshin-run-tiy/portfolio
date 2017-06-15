@@ -28,14 +28,19 @@
   background-color: lightblue;
 }
 
+#nav li {
+	color: #1281b1;
+}
+
 .nav-menu {
-  font-size: 1.25em;
+  font-size: 1.5em;
   font-family: 'futura';
-  color: #1bb3f5;
+  margin-top: 9px;
+  color: #1281b1;
 }
 
 .header-text {
-  padding: 3em;
+  padding: 5em;
   padding-top: 12em;
 }
 
@@ -54,6 +59,7 @@
 .nav-style {
   font-size: 1.111em;
   font-family: 'arial';
+  color: #1281b1;
 }
 
 /*----------------
