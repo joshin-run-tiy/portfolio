@@ -14,6 +14,7 @@
     <link rel="stylesheet" href="./assets/css/bootstrap.css">
     <link rel="stylesheet" href="./assets/css/media-q.css">
     <link rel="stylesheet" href="./assets/css/menu.css">
+    <link rel="stylesheet" href="./assets/css/overlay.css">
     <script type="text/javascript" src="./js/jquery-3.2.1.min.js"></script>
     <script type="text/javascript" src="./js/nav.js"></script>
   </head>
@@ -21,7 +22,7 @@
     <nav id="navbar_plus" class="navbar navbar-default navbar-fixed-top">
       <div class="container-fluid">
         <div class="navbar-header">
-          <a id="navbar--brand" href="#home"><img src="./assets/img/jh-logo-pentigon.svg" alt="jh-logo" class="logo-img"></a>
+          <a id="navbar--brand" href="#home"><img src="./assets/img/jh-pentlogo.svg" alt="jh-logo" class="logo-img"></a>
         </div>
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
           <ul id="nav" class="nav navbar-nav navbar-right nav-style">
@@ -40,34 +41,54 @@
         <p class="title dev-type">Modern and Responsive Web Applications</p>
       </div>
     </div>
-    <div class="blue-space"></div>
+    <div class="blue-space-sm"></div>
     <div class="space-thin"></div>
     <div id="portfolio"></div>
       <div id="thumbnail-grid">
         <div id="thumbnail-inner">
-          <div class="thumb-2">
-            <a href="https://joshin-run.github.io/white-vision/" target="_blank"><img class="thumbnails" src="./assets/img/project-thumbnails/cards300/whiteVision.jpg" alt="White Vision"></a>
-          </div>
-          <div class="thumb-4">
-            <a href="https://joshin-run.github.io/fcc-css-grid/" target="_blank"><img class="thumbnails" src="./assets/img/project-thumbnails/cards300/css-grid-presentation.jpg" alt="CSS Grid Meetup Presentation"></a>
-          </div>
-          <div class="thumb-6">
-            <a href=" https://joshin-run.github.io/edison-tribute/" target="_blank"><img class="thumbnails" src="./assets/img/project-thumbnails/cards300/edison.jpg" alt="Thomas Edison"></a>
-          </div>
-          <div class="thumb-8">
-            <a href="https://joshin-run.github.io/flowstate-v" target="_blank"><img class="thumbnails" src="./assets/img/project-thumbnails/cards300/FlowState.jpg" alt="FlowState"></a>
-          </div>
+          <!-- <div class="container"> -->
+            <div class="thumb-6">
+              <a href=" https://joshin-run.github.io/edison-tribute/" target="_blank"><img class="thumbnails image" src="./assets/img/project-thumbnails/cards300/edison.jpg" alt="Thomas Edison"></a>
+            </div>
+            <!-- <div class="overlay">
+              <div class="text">Thomas Edison</div>
+            </div> -->
+          <!-- </div> -->
+          <!-- <div class="container"> -->
+            <div class="thumb-2">
+              <a href="https://joshin-run.github.io/white-vision/" target="_blank"><img class="thumbnails" src="./assets/img/project-thumbnails/cards300/whiteVision.jpg" alt="White Vision"></a>
+            </div>
+            <!-- <div class="overlay">
+              <div class="text">Thomas Edison</div>
+            </div> -->
+          <!-- </div> -->
+          <!-- <div class="container"> -->
+            <div class="thumb-4">
+              <a href="https://joshin-run.github.io/fcc-css-grid/" target="_blank"><img class="thumbnails" src="./assets/img/project-thumbnails/cards300/css-grid-presentation.jpg" alt="CSS Grid Meetup Presentation"></a>
+            </div>
+            <!-- <div class="overlay">
+              <div class="text">Thomas Edison</div>
+            </div> -->
+          <!-- </div> -->
+          <!-- <div class="container"> -->
+            <div class="thumb-8">
+              <a href="https://joshin-run.github.io/flowstate-v" target="_blank"><img class="thumbnails" src="./assets/img/project-thumbnails/cards300/FlowState.jpg" alt="FlowState"></a>
+            </div>
+            <!-- <div class="overlay">
+              <div class="text">Thomas Edison</div>
+            </div>
+          </div> -->
         </div>
       </div>
       <div id="portfolio"></div>
         <div id="thumbnail-grid">
           <div id="thumbnail-inner">
-            <div class="thumb-2">
-              <img class="thumbnails" src="./assets/img/jhlogo.svg" alt="Josh Holladay Logo">
+            <div class="jhlogo-show">
+              <img class="logos" src="./assets/img/jh-pentlogo.svg" alt="Josh Holladay Logo">
             </div>
-            <div class="thumb-4">
-              <img class="thumbnails" src="./assets/img/project-thumbnails/cards300/css-grid-presentation.jpg" alt="CSS Grid Meetup Presentation">
-            </div>            
+            <div class="slcnet">
+              <img class="logos" src="./assets/img/SLCNETlogo.svg" alt="SLC Dot Net Logo">
+            </div>
           </div>
         </div>
       <div class="blue-space"></div>
@@ -100,7 +121,6 @@
           <img class="icons" src="./assets/img/icons/tech-stack/react.png" alt="React.js">
         </div>
       </div>
-      <div class="space-medium"></div>
       <div class="footer-container">
         <div class="bio-container">
           <div class="bio-box">
@@ -130,7 +150,8 @@
       </div>
     </div>
     <div class="sub-footer">
-      <p>Copyright &copy; 2017<span> Josh Holladay</span></p>
+      <p><span> Josh Holladay</span> 2017</p>
     </div>
+    <div class="space-sm"></div>
   </body>
 </html>
