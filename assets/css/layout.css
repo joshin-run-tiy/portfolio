@@ -34,6 +34,18 @@
   background-color: lightblue;
 }
 
+.background-projects {
+  background-color: #f6f6f6;
+}
+
+.background-logos {
+  background-color: #ffffff;
+}
+
+.background-tech-stack {
+  background-color: #e7f5fe;
+}
+
 #nav li {
 	color: #1281b1;
 }
@@ -48,6 +60,7 @@
 .header-text {
   padding: 5em;
   padding-top: 12em;
+  color: #ffffff;
 }
 
 .space-thin {
@@ -77,7 +90,11 @@
 /*----------------
 Thumbnails
 ------------------*/
+
 #thumbnail-grid {
+  background-color: yellow;
+  /*padding-top: 100px;
+  padding-bottom: 100px;*/
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -92,9 +109,21 @@ Thumbnails
   justify-content: center;
   align-items: center;
   height: 80%;
-  width: 1300px;
-  padding: 5em 1em 5em 1em;
-  margin-top: 40px;
+  width: 100vw;
+  padding: 100px 50px 100px 50px;
+  padding-bottom: 100px;
+}
+
+#thumbnail-inner2 {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  height: 80%;
+  width: 100wv;
+  padding: 5em 0em 5em 0em;
 }
 
 .project-heading {
@@ -155,7 +184,7 @@ logos
 ------------------*/
 
 .logos {
-  height: 200px;
+  height: 100px;
 }
 
 .jhlogo-show {
@@ -171,8 +200,8 @@ icons
 ------------------*/
 
 .icons {
-  width: 80%;
-  height: 80%;
+  width: 50%;
+  height: 50%;
   margin: .5em;
 }
 
@@ -181,8 +210,6 @@ Tech Stack
 ------------------*/
 
 #icon-grid {
-  background-image: url("../img/code4.jpg");
-  background-attachment: fixed;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
