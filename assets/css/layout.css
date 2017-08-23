@@ -4,7 +4,7 @@
 
 .title {
   font-family: 'futura';
-  color: #000;
+  color: #fff;
   /*fill: lightblue;
   stroke: black;*/
   /*stroke-width: 10em;  */
@@ -35,7 +35,7 @@
 }
 
 .background-projects {
-  background-color: #fff9ef;
+  background-color: #f6f6f6;
 }
 
 .background-logos {
@@ -90,11 +90,8 @@
 /*----------------
 Thumbnails
 ------------------*/
-
 #thumbnail-grid {
-  background-color: yellow;
-  /*padding-top: 100px;
-  padding-bottom: 100px;*/
+  background-color: #f6f6f6;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -110,8 +107,7 @@ Thumbnails
   align-items: center;
   height: 80%;
   width: 100vw;
-  padding: 100px 50px 100px 50px;
-  padding-bottom: 100px;
+  padding: 5em 0em 5em 0em;
 }
 
 #thumbnail-inner2 {
@@ -184,7 +180,7 @@ logos
 ------------------*/
 
 .logos {
-  height: 100px;
+  height: 200px;
 }
 
 .jhlogo-show {
@@ -200,8 +196,8 @@ icons
 ------------------*/
 
 .icons {
-  width: 50%;
-  height: 50%;
+  width: 80%;
+  height: 80%;
   margin: .5em;
 }
 

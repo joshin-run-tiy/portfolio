@@ -1,5 +1,7 @@
 .hero-banner {
-  background-image: url(../img/new-code/invert-code-diagBlur1.png);
+  /*background-image: url(../img/new-code/orange-mockup-light.jpg);*/
+  /*background-image: url(../img/new-code/invert-code-diagBlur1-dark-colorful.png);*/
+  background-image: url(../img/new-code/pineapple-supply-co-v1-blue_green-v1-1440px.jpg);
   height: 100vh;
   width: 100vw;
   /*background-repeat: no-repeat;
@@ -8,6 +10,6 @@
   z-index: 0;
 }
 
-.overlay {top: 0px; left: 0px; z-index: 3; opacity: .5; background-color: blue; height: 100vh; width: 100vw;}
+/*.overlay {top: 0px; left: 0px; z-index: 3; opacity: .5; background-color: blue; height: 100vh; width: 100vw;}
 
-.overlay {top: 0px; left: 0px; z-index: 3; opacity: .5; background-color: #99ccff; height: 100vh; width: 100vw;}
+.overlay {top: 0px; left: 0px; z-index: 3; opacity: .5; background-color: #99ccff; height: 100vh; width: 100vw;}*/
