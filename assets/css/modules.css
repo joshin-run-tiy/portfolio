@@ -4,7 +4,7 @@ modules
 
 #navbar_plus
 {
-	background: #fff;
+	/*background: #fff;*/
 	/*border-bottom: 3px thin lightblue;
 	box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.1);
 	box-shadow: inset;*/
@@ -13,7 +13,8 @@ modules
 	height: 9%;
 	padding-right: 25px;
 	/*opacity: 0.9;*/
-	color: #146CA6;
+	color: #ffffff;
+	/*color: #146CA6;*/
 }
 
 .thumbnail_layout_right

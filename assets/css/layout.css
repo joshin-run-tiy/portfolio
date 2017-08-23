@@ -47,14 +47,16 @@
 }
 
 #nav li {
-	color: #1281b1;
+	color: #ffffff;
+	/*color: #1281b1;*/
 }
 
 .nav-menu {
   font-size: 1.15em;
   font-family: 'futura';
   margin-top: 9px;
-  color: #000;
+  color: #fff;
+  /*color: #000;*/
 }
 
 .header-text {
@@ -180,7 +182,8 @@ logos
 ------------------*/
 
 .logos {
-  height: 200px;
+  width: 60%;
+  height: auto;
 }
 
 .jhlogo-show {
@@ -196,8 +199,8 @@ icons
 ------------------*/
 
 .icons {
-  width: 80%;
-  height: 80%;
+  width: 60%;
+  height: auto;
   margin: .5em;
 }
 
