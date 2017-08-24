@@ -46,6 +46,10 @@
   background-color: #e7f5fe;
 }
 
+#nav {
+	color: #ffffff;
+}
+
 #nav li {
 	color: #ffffff;
 	/*color: #1281b1;*/
@@ -55,7 +59,7 @@
   font-size: 1.15em;
   font-family: 'futura';
   margin-top: 9px;
-  color: #fff;
+  color: #ffffff;
   /*color: #000;*/
 }
 
@@ -86,7 +90,7 @@
 .nav-style {
   font-size: 1em;
   font-family: 'futura';
-  color: #000;
+  color: #fff;
 }
 
 /*----------------
