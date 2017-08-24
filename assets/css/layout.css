@@ -4,7 +4,9 @@
 
 .title {
   font-family: 'futura';
-  color: #fff;
+  color: #000;
+  /*position: absolute;*/
+  text-align: center;
   /*fill: lightblue;
   stroke: black;*/
   /*stroke-width: 10em;  */
@@ -47,11 +49,12 @@
 }
 
 #nav {
-	color: #fff;
+	/*color: #000;*/
 }
 
+/*=====dictates color of the menu text=====*/
 #nav li {
-	color: #fff;
+	color: #000;
 }
 
 .nav-menu {
