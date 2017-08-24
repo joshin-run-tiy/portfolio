@@ -47,19 +47,18 @@
 }
 
 #nav {
-	color: #ffffff;
+	color: #fff;
 }
 
 #nav li {
-	color: #ffffff;
-	/*color: #1281b1;*/
+	color: #fff;
 }
 
 .nav-menu {
-  font-size: 1.15em;
+  font-size: 1.35em;
   font-family: 'futura';
   margin-top: 9px;
-  color: #ffffff;
+  color: white;
   /*color: #000;*/
 }
 
@@ -69,13 +68,13 @@
   color: #ffffff;
 }
 
-.space-thin {
+/*.space-thin {
   height: 75px;
   width: 100vw;
   background-color: #f1f1f1;
-}
+}*/
 
-.space-medium {
+/*.space-medium {
   height: 110px;
   width: 100vw;
   background-color: #f1f1f1;
@@ -85,7 +84,7 @@
   height: 30px;
   width: 100vw;
   background-color: #0B5278;
-}
+}*/
 
 .nav-style {
   font-size: 1em;
