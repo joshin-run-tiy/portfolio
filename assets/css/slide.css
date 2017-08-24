@@ -2,7 +2,7 @@
 body {font-family: Verdana,sans-serif;}
 
 .mySlides {
-  display:none;
+  /*display:none;*/
   height: 100vh;
   width: 100vw;
 }
