@@ -1,4 +1,9 @@
 .hero-banner {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
   background-image: url(../img/new-code/pineapple-supply-co-v1-blue_green-v1-1440px-dark.jpg);
   /*background-image: url(../img/new-code/orange-mockup.jpg);*/
   /*background-image: url(../img/new-code/green-code-smooth-constrast.jpg);*/
@@ -23,3 +28,9 @@
 /*.overlay {top: 0px; left: 0px; z-index: 3; opacity: .5; background-color: blue; height: 100vh; width: 100vw;}
 
 .overlay {top: 0px; left: 0px; z-index: 3; opacity: .5; background-color: #99ccff; height: 100vh; width: 100vw;}*/
+
+.header-text {
+  padding: 5em;
+  padding-top: 12em;
+  color: #ffffff;
+}
