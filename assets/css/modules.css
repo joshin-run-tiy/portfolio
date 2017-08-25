@@ -7,10 +7,9 @@ modules
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: flex-end;
+  justify-content:space-between;
   align-items: center;
   margin-top: 15px;
-	padding-right: 25px;
   width: 100vw;
   /*background-color: transparent;
   background: transparent;*/
@@ -23,22 +22,31 @@ modules
   border-width: 0px;
 }
 
-.navbar-header {
+/*.navbar-header {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: flex-end;
   align-items: flex-end;
-}
+}*/
 
-.navbar--brand {
-  display: inline-block;
-  margin: auto;
-  .domains-trigger
+/*.navbar--brand {
+  display: flex;
+
   /*flex-direction: row;
   flex-wrap: wrap;
   justify-content: flex-start;
   align-items: flex-start;*/
+}
+
+.logo-item {
+  align-self: flex-start;
+  margin: 0px 50px 0px 50px;
+}
+
+.menu-item {
+  align-self: flex-end;
+  margin: 0px 50px 0px 50px;
 }
 
 .thumbnail_layout_right
