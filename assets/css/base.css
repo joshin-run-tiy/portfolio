@@ -26,3 +26,13 @@ h6 {
 .logo-img {
   height: 50px;
 }
+
+ul {
+	list-style-type: none;
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+	color: #fff;
+}

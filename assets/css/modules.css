@@ -9,7 +9,6 @@ modules
   flex-wrap: wrap;
   justify-content:space-between;
   align-items: center;
-  margin-top: 15px;
   width: 100vw;
   /*background-color: transparent;
   background: transparent;*/
@@ -45,9 +44,18 @@ modules
 }
 
 .menu-item {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
   align-self: flex-end;
   margin: 0px 50px 0px 50px;
+  padding: 10px;
+  /*border: 3px solid #fff;*/
 }
+
+
 
 .thumbnail_layout_right
 {
