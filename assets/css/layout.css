@@ -53,30 +53,23 @@
   background-color: #e7f5fe;
 }
 
-#nav {
-	color: #fff;
-}
-
-#nav li {
-	color: #fff;
-}
-
 .nav-menu {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
+  position: relative;
+  display: block;
   font-size: 1.35em;
   font-family: 'Julius Sans One', sans-serif;
-  /*font-weight: 300;*/
   font-size: 1em;
-  margin: 5px 20px 0px 20px;
+  padding: 20px 20px;
   /*border: 3px solid #fff;*/
 }
 
 .nav-menu:hover {
-  /*border-bottom: 3px solid #fff;*/
+  background-color: #fff;
+  color: #777777;
+}
+
+#hire-josh:hover {
+  background-color: #fff;
 }
 
 
@@ -279,7 +272,7 @@ Footer
   justify-content: center;
   align-items: center;
   /*padding: 5em 5em;*/
-  height: 45vh;
+  height: 200px;
   width: 100%;
   background-color: #4D91A9;
 }
@@ -292,14 +285,26 @@ span {
   font-size: 1.05em;
 }
 
+/*.contact-container {
+  position: relative;
+  display: block;
+
+  height: 100%;
+  width: 50%;
+  color: #fff;
+}*/
+
 .contact-container {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
   height: 100%;
   width: 50%;
+  color: #fff;
+  font-size: .85em;
+  font-family: 'Julius Sans One', sans-serif;
 }
 
 .m-icons {
