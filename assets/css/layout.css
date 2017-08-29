@@ -3,8 +3,11 @@
 }
 
 .title {
-  font-family: 'futura';
+  font-family: 'Julius Sans One', sans-serif;
   color: #fff;
+  text-align: center;
+  font-weight: 200;
+  line-height:normal;
   /*fill: lightblue;
   stroke: black;*/
   /*stroke-width: 10em;  */
@@ -12,14 +15,18 @@
 
 .name {
   font-size: 2.5em;
+  margin: 0px;
 }
 
 .dev {
-  font-size: 6em;
+  font-size: 4em;
+  font-weight: bold;
+  margin: .5em .5em;
 }
 
 .dev-type {
   font-size: 1.5em;
+  margin: 0px;
 }
 
 .blue-space {
@@ -35,38 +42,36 @@
 }
 
 .background-projects {
-  background-color: #f6f6f6;
+  background-color: #008080;
 }
 
 .background-logos {
-  background-color: #ffffff;
+  background-color: #e7f5fe;
 }
 
 .background-tech-stack {
   background-color: #e7f5fe;
 }
 
-#nav {
-	color: #fff;
-}
-
-#nav li {
-	color: #fff;
-}
-
 .nav-menu {
+  position: relative;
+  display: block;
   font-size: 1.35em;
-  font-family: 'futura';
-  margin-top: 9px;
-  color: white;
-  /*color: #000;*/
+  font-family: 'Julius Sans One', sans-serif;
+  font-size: 1em;
+  padding: 20px 20px;
+  /*border: 3px solid #fff;*/
 }
 
-.header-text {
-  padding: 5em;
-  padding-top: 12em;
-  color: #ffffff;
+.nav-menu:hover {
+  background-color: #fff;
+  color: #777777;
 }
+
+#hire-josh:hover {
+  background-color: #fff;
+}
+
 
 /*.space-thin {
   height: 75px;
@@ -267,68 +272,39 @@ Footer
   justify-content: center;
   align-items: center;
   /*padding: 5em 5em;*/
-  height: 45vh;
+  height: 200px;
   width: 100%;
   background-color: #4D91A9;
 }
 
-.bio-container {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-  /*padding: 1em 10em 0 5em;*/
-  height: 100%;
-  width: 50%;
-}
 
-.bio-box {
-  /*display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;*/
-  height: 20vh;
-  width: 30vw;
-  /*padding: 1em 3em 0 0;*/
-}
 
-.bio-content span {
-  color: lightgray;
-}
 
-.bio-content p {
-  /*font-family: 'futura';*/
-  font-family: Arial,"Helvetica Neue",Helvetica,sans-serif;
-  font-size: 1em;
-  font-weight: 100;
-  color: #fff;
-}
-
-.devitar {
-  height: 5em;
-  width: 5em;
-  border: 2px solid #356576;
-  float: left;
-  margin: 0 1.20em 0 0;
-  text-align: justify;
-  box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.1);
-  box-shadow: inset;
-}
 
 span {
   font-size: 1.05em;
 }
 
+/*.contact-container {
+  position: relative;
+  display: block;
+
+  height: 100%;
+  width: 50%;
+  color: #fff;
+}*/
+
 .contact-container {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
   height: 100%;
   width: 50%;
+  color: #fff;
+  font-size: .85em;
+  font-family: 'Julius Sans One', sans-serif;
 }
 
 .m-icons {

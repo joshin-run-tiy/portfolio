@@ -8,6 +8,10 @@
   /*padding: 1em 10em 0 5em;*/
   height: 600px;
   width: 100vw;
+<<<<<<< HEAD
+=======
+  background-color: #ffffff;
+>>>>>>> dev2
 }
 
 .bio-box {
@@ -17,7 +21,11 @@
   justify-content: center;
   align-items: center;*/
   height: 20vh;
+<<<<<<< HEAD
   width: 30vw;
+=======
+  width: 40vw;
+>>>>>>> dev2
   /*padding: 1em 3em 0 0;*/
 }
 
@@ -34,8 +42,13 @@
 }
 
 .devitar {
+<<<<<<< HEAD
   height: 50%;
   width: 50%;
+=======
+  height: 200px;
+  width: 200px;
+>>>>>>> dev2
   /*border: 2px solid #356576;*/
   float: left;
   margin: 0 1.20em 0 0;

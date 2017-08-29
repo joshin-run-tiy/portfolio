@@ -4,16 +4,58 @@ modules
 
 #navbar_plus
 {
-	/*background: #fff;*/
-	/*border-bottom: 3px thin lightblue;
-	box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.1);
-	box-shadow: inset;*/
- 	margin: 0;
-	/*padding-bottom: 5px;*/
-	height: 9%;
-	padding-right: 25px;
-	/*color: #ffffff;*/
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content:space-between;
+  align-items: center;
+  width: 100vw;
+  /*background-color: transparent;
+  background: transparent;*/
+  border-width: 0px;
 }
+
+.navbar {
+  background-color: transparent;
+  background: transparent;
+  border-width: 0px;
+}
+
+/*.navbar-header {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  align-items: flex-end;
+}*/
+
+/*.navbar--brand {
+  display: flex;
+
+  /*flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: flex-start;*/
+}
+
+.logo-item {
+  align-self: flex-start;
+  margin: 0px 50px 0px 50px;
+}
+
+.menu-item {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  align-self: flex-end;
+  margin: 20px 20px 0px 0px;
+  padding: 10px;
+  /*border: 3px solid #fff;*/
+}
+
+
 
 .thumbnail_layout_right
 {

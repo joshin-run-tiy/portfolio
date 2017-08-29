@@ -11,32 +11,36 @@
     <link rel="stylesheet" type="text/css" href="assets/css/base.css">
     <link rel="stylesheet" type="text/css" href="assets/css/layout.css">
     <link rel="stylesheet" type="text/css" href="assets/css/modules.css">
-    <link rel="stylesheet" href="./assets/css/bootstrap.css">
+    <!-- <link rel="stylesheet" href="./assets/css/bootstrap.css"> -->
     <link rel="stylesheet" href="./assets/css/media-q.css">
     <link rel="stylesheet" href="./assets/css/menu.css">
     <link rel="stylesheet" href="./assets/css/overlay.css">
+    <link rel="stylesheet" href="./assets/css/bio.css">
+    <link rel="stylesheet" href="./assets/css/fonts.css">
     <script type="text/javascript" src="./js/jquery-3.2.1.min.js"></script>
     <script type="text/javascript" src="./js/nav.js"></script>
   </head>
   <body>
-    <nav id="navbar_plus" class="navbar navbar-fixed-top">
-      <div class="container-fluid">
-        <div class="navbar-header">
-          <a id="navbar--brand" href="#home"><img src="./assets/img/jlogo-six.svg" alt="jh-logo" class="logo-img"></a>
-        </div>
-        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-          <ul id="nav" class="nav navbar-nav navbar-right nav-style">
-            <li class="nav-menu"><a href="#home">Home</a></li>
-            <li class="nav-menu"><a href="#bio">Bio</a></li>
-            <li class="nav-menu"><a href="#projects">Projects</a></li>
-            <li class="nav-menu"><a href="#design">Design</a></li>
-            <li class="nav-menu"><a href="#contact">Contact</a></li>
-          </ul>
-        </div>
-      </div>
-    </nav>
     <a id="home"></a>
     <div class="hero-banner">
+      <nav id="navbar_plus" class="navbar">
+        <!-- <div class="navbar-header"> -->
+          <!-- </div> -->
+      <!-- <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1"> -->
+        <div class="logo-item">
+          <a id="navbar--brand" href="#home"><img class="logo-img"  src="./assets/img/jlogo-dark-blue-white-border-20px.svg" alt="jh-logo"></a>
+        </div>
+        <ul id="nav" class="menu-item logo nav navbar-nav nav-style">
+          <li class="nav-menu"><a href="#home">HOME</a></li>
+          <li class="nav-menu"><a href="#bio">BIO</a></li>
+          <li class="nav-menu"><a href="#projects">PROJECTS</a></li>
+          <li class="nav-menu"><a href="#design">DESIGN</a></li>
+          <li class="nav-menu"><a href="#contact">CONTACT</a></li>
+          <li id="hire-josh" class="nav-menu"><a href="#contact">HIRE JOSH</a></li>
+        </ul>
+      <!-- </div> -->
+        <!-- </div> -->
+      </nav>
       <div class="overlay">
         <div class="header-text">
           <p class="title name">Josh Holladay</p>
@@ -47,6 +51,23 @@
     </div>
     <!-- <div class="blue-space-sm"></div>
     <div class="space-thin"></div> -->
+
+
+    <div class="bio-wrapper">
+      <!-- <div id="bio"> -->
+        <div class="bio-box">
+          <div class="bio-img">
+            <img class="devitar" src="./assets/img/devitar.jpg" alt="Josh Holladay Avatar">
+          </div>
+          <div class="bio-content">
+            <p>Josh is a front-end web developer in the Greater Salt Lake area. He is passionate about clean and reusable code, modern and responsive design, team and mob programming, and a lover of git. <span>Hire Josh</span> for your next project or for a position at your company.
+            </p>
+          </div>
+        </div>
+      <!-- </div> -->
+    </div>
+
+
     <div id="projects"></div>
       <div id="thumbnail-grid">
         <div id="thumbnail-inner" class="background-projects">
@@ -95,7 +116,7 @@
             </div>
           </div>
         </div>
-      <div id="icon-grid" class="tech-stack background-tech-stack">
+      <!-- <div id="icon-grid" class="tech-stack background-tech-stack">
         <div class="icon-1">
           <img class="icons" src="./assets/img/icons/tech-stack/html5-150.png" alt="HTML5">
         </div>
@@ -123,9 +144,9 @@
         <div class="icon-9">
           <img class="icons" src="./assets/img/icons/tech-stack/react.png" alt="React.js">
         </div>
-      </div>
+      </div> -->
       <div class="footer-container">
-        <div id="bio" class="bio-container">
+        <!-- <div id="bio" class="bio-container">
           <div class="bio-box">
             <div class="bio-img">
               <img class="devitar" src="./assets/img/devitar.jpg" alt="Josh Holladay Avatar">
@@ -135,26 +156,26 @@
               </p>
             </div>
           </div>
-        </div>
+        </div> -->
         <div id="contact" class="contact-container">
           <div class="m-icon1">
-            <a href="https://www.linkedin.com/in/joshholladay/" target="_blank"><img class="m-icons" src="./assets/img/icons/linkedin-2.png" alt="Linked In"></a>
+            <a href="https://www.linkedin.com/in/joshholladay/" target="_blank">LINKEDIN</a>
           </div>
           <div class="m-icon2">
-            <a href="https://joshholladay.wordpress.com/" target="_blank"><img class="m-icons" src="./assets/img/icons/wordpress.png" alt="Wordpress"></a>
+            <a href="https://joshholladay.wordpress.com/" target="_blank">WORDPRESS</a>
           </div>
           <div class="m-icon3">
-            <a href="https://twitter.com/iamjoshholladay" target="_blank"><img class="m-icons" src="./assets/img/icons/twitter.png" alt="Twitter"></a>
+            <a href="https://twitter.com/iamjoshholladay" target="_blank">TWITTER</a>
           </div>
           <div class="m-icon4">
-            <a href="https://github.com/joshin-run" target="_blank"><img class="m-icons" src="./assets/img/icons/github.png" alt="GitHub"></a>
+            <a href="https://github.com/joshin-run" target="_blank">GITHUB</a>
           </div>
         </div>
       </div>
     </div>
-    <div class="sub-footer">
+    <!-- <div class="sub-footer">
       <p><span> Josh Holladay</span> 2017</p>
     </div>
-    <div class="space-sm"></div>
+    <div class="space-sm"></div> -->
   </body>
 </html>
