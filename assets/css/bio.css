@@ -4,33 +4,15 @@
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
-  align-items: center;
-  /*padding: 1em 10em 0 5em;*/
+  /*align-items: center;*/
   height: 600px;
   width: 100vw;
-<<<<<<< HEAD
-=======
-  background-color: #ffffff;
->>>>>>> dev2
+  padding-top: 50px;
 }
 
 .bio-box {
-  /*display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;*/
   height: 20vh;
-<<<<<<< HEAD
   width: 30vw;
-=======
-  width: 40vw;
->>>>>>> dev2
-  /*padding: 1em 3em 0 0;*/
-}
-
-.bio-content span {
-  color: lightgray;
 }
 
 .bio-content p {
@@ -40,19 +22,17 @@
   font-weight: 100;
   color: #000;
 }
+.bio-content span {
+  color: lightgray;
+}
 
 .devitar {
-<<<<<<< HEAD
-  height: 50%;
-  width: 50%;
-=======
-  height: 200px;
-  width: 200px;
->>>>>>> dev2
+  height: 300px;
+  width: auto;
+/*>>>>>>> dev2*/
   /*border: 2px solid #356576;*/
-  float: left;
   margin: 0 1.20em 0 0;
-  text-align: justify;
-  box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.1);
-  box-shadow: inset;
+  /*text-align: justify;*/
+  /*box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.1);*/
+  /*box-shadow: inset;*/
 }
