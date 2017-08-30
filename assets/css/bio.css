@@ -10,12 +10,6 @@
   width: 100vw;
 }
 
-/*.bio-box {
-  border: 1px solid blue;
-  height: 20vh;
-  width: 30vw;
-}*/
-
 .bio-content {
   /*border: 1px solid #d3d3d3;*/
   height: 300px;
@@ -25,7 +19,6 @@
 
 .bio-content p {
   font-family: 'Dosis', sans-serif;
-  font-weight: 300;
   font-size: 1em;
   font-weight: 100;
   color: ##f6f6f6;
