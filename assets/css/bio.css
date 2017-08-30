@@ -1,29 +1,38 @@
 .bio-wrapper {
-  background-color: #fff;
+  /*background-color: #ABABAB;*/
+  background-color: #E4E4E4;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
-  /*align-items: center;*/
+  align-items: center;
   height: 600px;
   width: 100vw;
-  padding-top: 50px;
 }
 
-.bio-box {
+/*.bio-box {
+  border: 1px solid blue;
   height: 20vh;
   width: 30vw;
+}*/
+
+.bio-content {
+  /*border: 1px solid #d3d3d3;*/
+  height: 300px;
+  width: 50%;
+  padding: 20px 50px 20px 50px;
 }
 
 .bio-content p {
-  /*font-family: 'futura';*/
-  font-family: Arial,"Helvetica Neue",Helvetica,sans-serif;
+  font-family: 'Dosis', sans-serif;
+  font-weight: 300;
   font-size: 1em;
   font-weight: 100;
-  color: #000;
+  color: ##f6f6f6;
 }
+
 .bio-content span {
-  color: lightgray;
+  color: gray;
 }
 
 .devitar {
@@ -32,7 +41,8 @@
 /*>>>>>>> dev2*/
   /*border: 2px solid #356576;*/
   margin: 0 1.20em 0 0;
+  /*border: 1px solid slategray;*/
   /*text-align: justify;*/
-  /*box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.1);*/
-  /*box-shadow: inset;*/
+  box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.1);
+  box-shadow: inset;
 }

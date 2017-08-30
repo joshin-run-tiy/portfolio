@@ -14,3 +14,7 @@
   font-family: 'Julius Sans One';
   src: url(../fonts/fav-fonts/Julius_Sans_One/JuliusSansOne-Regular.ttf);
 }
+@font-face {
+  font-family: 'Dosis';
+  src: url(../fonts/fav-fonts/Dosis/Dosis-Light.ttf);
+}
