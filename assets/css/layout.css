@@ -110,6 +110,8 @@ Thumbnails
   align-items: center;
 }*/
 
+/*xf below*/
+
 #projects-wrapper {
   display: flex;
   flex-direction: row;
@@ -121,6 +123,7 @@ Thumbnails
   background-color: #dddddd;
   padding: 5em 0em 5em 0em;
 }
+
 
 #design-wrapper {
   display: flex;
@@ -134,6 +137,7 @@ Thumbnails
   padding: 50px;
   /*padding: 5em 0em 5em 0em;*/
 }
+/*xf above*/
 
 .project-heading {
   margin-top: 1em;
@@ -258,7 +262,7 @@ Tech Stack
 }
 
 /*----------------
-Footer
+xf down 
 ------------------*/
 
 .footer-container {
@@ -273,7 +277,9 @@ Footer
   background-color: #4D91A9;
 }
 
-
+/*----------------
+xf up
+------------------*/
 
 
 

@@ -42,7 +42,7 @@ modules
   align-self: flex-start;
   margin: 0px 50px 0px 50px;
 }
-
+/*down*/
 .menu-item {
   display: flex;
   flex-direction: row;
@@ -54,7 +54,7 @@ modules
   padding: 10px;
   /*border: 3px solid #fff;*/
 }
-
+/*up*/
 
 
 .thumbnail_layout_right
