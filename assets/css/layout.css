@@ -131,7 +131,7 @@ Thumbnails
   height: 1000px;
   width: 100wv;
   background-color: #ffffff;
-  padding: 5em 0em 5em 0em;
+  /*padding: 5em 0em 5em 0em;*/
 }
 
 .project-heading {
@@ -194,14 +194,7 @@ logos
 .logos {
   width: auto;
   height: 100px;
-}
-
-.jhlogo-show {
-  margin: 0 40px 40px 40px;
-}
-
-.slcnet {
-  margin: 0 40px 40px 40px;
+  margin: 20px;
 }
 
 /*----------------
