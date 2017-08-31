@@ -118,7 +118,7 @@ Thumbnails
   align-items: center;
   height: 1000px;
   width: 100vw;
-  background-color: #f6f6f6;
+  background-color: #dddddd;
   padding: 5em 0em 5em 0em;
 }
 
@@ -131,6 +131,7 @@ Thumbnails
   /*height: 1000px;*/
   width: 100wv;
   background-color: #ffffff;
+  padding: 50px;
   /*padding: 5em 0em 5em 0em;*/
 }
 
