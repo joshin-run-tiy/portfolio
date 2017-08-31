@@ -128,7 +128,7 @@ Thumbnails
   flex-wrap: wrap;
   justify-content: space-around;
   align-items: center;
-  height: 1000px;
+  /*height: 1000px;*/
   width: 100wv;
   background-color: #ffffff;
   /*padding: 5em 0em 5em 0em;*/
