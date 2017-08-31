@@ -126,7 +126,7 @@ Thumbnails
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
   height: 1000px;
   width: 100wv;
@@ -194,7 +194,7 @@ logos
 .logos {
   width: auto;
   height: 100px;
-  margin: 20px;
+  margin: 50px;
 }
 
 /*----------------
