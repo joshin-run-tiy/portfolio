@@ -42,11 +42,12 @@
 }
 
 .background-projects {
-  background-color: #008080;
+  background-color: #dddddd;
 }
 
 .background-logos {
-  background-color: #e7f5fe;
+  background-color: #ffffff;
+  /*background-color: #e7f5fe;*/
 }
 
 .background-tech-stack {
@@ -100,35 +101,36 @@
 /*----------------
 Thumbnails
 ------------------*/
-#thumbnail-grid {
+/*#thumbnail-grid {
   background-color: #f6f6f6;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-}
+}*/
 
-#thumbnail-inner {
+#projects-wrapper {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  height: 80%;
+  height: 1000px;
   width: 100vw;
+  background-color: #f6f6f6;
   padding: 5em 0em 5em 0em;
 }
 
-#thumbnail-inner2 {
-  background-color: #ffffff;
+#design-wrapper {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  height: 80%;
+  height: 1000px;
   width: 100wv;
+  background-color: #ffffff;
   padding: 5em 0em 5em 0em;
 }
 
@@ -190,8 +192,8 @@ logos
 ------------------*/
 
 .logos {
-  width: 60%;
-  height: auto;
+  width: auto;
+  height: 100px;
 }
 
 .jhlogo-show {

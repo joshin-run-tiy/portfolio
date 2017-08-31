@@ -40,18 +40,23 @@
     height: 40px;
     margin-top: 24px;
   }
+  .bio-content p {
+    font-size: 0.60em
+  }
 }
 
 @media( max-width: 480px ) {
   .name {
     font-size: 1.5em;
   }
-
   .dev {
     font-size: 3.25em;
   }
 
   .dev-type {
     font-size: 1em;
+  }
+  .bio-content p {
+    font-size: 0.1em
   }
 }
