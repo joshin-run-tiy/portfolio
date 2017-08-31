@@ -1,25 +1,29 @@
-.hero-banner {
+/*.hero-banner {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
-  align-items: flex-start;
+  align-items: flex-start;*/
   /*background-image: url(../img/banner/pineapple-darkblue-banner.jpg);*/
-  background-image: url(../img/new-code/pineapple-supply-co-v1-blue_green-v1-1440px-dark.jpg);
+  /*background-image: url(../img/new-code/pineapple-supply-co-v1-blue_green-v1-1440px-dark.jpg);*/
   /*background-image: url(../img/new-code/orange-mockup.jpg);*/
   /*background-image: url(../img/new-code/green-code-smooth-constrast.jpg);*/
   /*===== other past options for banner images =====*/
-  height: 100vh;
+  /*height: 100vh;
   width: auto;
   z-index: 0;
 }
-989898
+989898*/
 
-.header-text {
-  /*padding: 5em;
-  padding-top: 8em;*/
-  width: 100vw;
-}
+
+
+
+
+
+
+
+
+
 
 /*.overlay {top: 0px; left: 0px; z-index: 3; opacity: .5; background-color: blue; height: 100vh; width: 100vw;}
 

@@ -2,24 +2,7 @@
 modules
 -----------------*/
 
-#navbar_plus
-{
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content:space-between;
-  align-items: center;
-  width: 100vw;
-  /*background-color: transparent;
-  background: transparent;*/
-  border-width: 0px;
-}
 
-.navbar {
-  background-color: transparent;
-  background: transparent;
-  border-width: 0px;
-}
 
 /*.navbar-header {
   display: flex;
@@ -38,10 +21,7 @@ modules
   align-items: flex-start;*/
 }
 
-.logo-item {
-  align-self: flex-start;
-  margin: 0px 50px 0px 50px;
-}
+
 
 .menu-item {
   display: flex;
