@@ -24,3 +24,15 @@
 /*.overlay {top: 0px; left: 0px; z-index: 3; opacity: .5; background-color: blue; height: 100vh; width: 100vw;}
 
 .overlay {top: 0px; left: 0px; z-index: 3; opacity: .5; background-color: #99ccff; height: 100vh; width: 100vw;}*/
+
+@media screen and (max-width: 375px) {
+  .hero-banner {
+    
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .hero-banner {
+
+  }
+}
